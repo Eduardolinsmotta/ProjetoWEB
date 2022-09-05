@@ -8,27 +8,53 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     text-align: center;
+    color: rgb(19, 19, 170)
     
 }
 
+h2{
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(19, 19, 170)
+}
+
+h3{
+    text-align: center;
+}
+img{
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 200px;
+    height: auto;
+}
+
+
 header{
-    display: flex;
+    position: relative;
+    display: flexbox
     height: 150px;
-    width: 500px;
+    width: 1000px;
     margin: 15px;
 
 }
 
+
+
+
 body{
+
+    background: linear-gradient(-90, #739eec, #0049ff);
 
 
 }
 
 
 li{
-    display: flex;
+    display: contents;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
