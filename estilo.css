@@ -1,15 +1,19 @@
 *{
-    background-color: rgb(230, 140, 5);
-    padding: 0%;
-    margin: 0%;
-   }
+    padding: 0px;
+    margin: 0px;
+}
 
+:root{
+    --cor-de-fundo: rgb(231, 134, 7);
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-azul: rgb(0,0,255);
+    --cor-preto: rgb(0, 0, 0);
+    --cor-laranja-claro: rgb(255, 235, 205);
+}
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
-    text-align: center;
-    color: rgb(19, 19, 170)
-    
+    text-align: center;   
 }
 
 h2{
@@ -17,7 +21,7 @@ h2{
     margin-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: rgb(19, 19, 170)
+    
 }
 
 h3{
@@ -33,20 +37,10 @@ img{
 
 header{
     position: relative;
-    display: flexbox
+    display: flexbox;
     height: 150px;
     width: 1000px;
     margin: 15px;
-
-}
-
-
-
-
-body{
-
-    background: linear-gradient(-90, #739eec, #0049ff);
-
 
 }
 
