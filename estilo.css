@@ -1,6 +1,6 @@
 *{
+    box-sizing: border-box;
     padding: 0;
-    margin: auto;
 }
 
 :root{
@@ -8,66 +8,4 @@
     --cor-secundaria: rgb(255, 255, 255);
     --cor-azul: rgb(0, 0, 255);
     --cor-preto: rgb(0, 0, 0);
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-de-fundo);
-}
-
-header{
-    background-color: var(--cor-azul);
-    height: 100px;
-    width: 1400px;
-    margin: auto;
-    position: relative;
-    text-align: center;
-    padding-top: 5px;
-}
-
-header nav {
-    width: 1024px;
-    position: absolute;
-    bottom: 0;
-    float: left;
-
-}
-
-nav ul li{
-    display: inline-block;
-}
-
-figcaption{
-    font-size: 25px;
-}
-
-main{
-    background-color: var(--cor-secundaria);
-    text-align: justify;
-    width: 1024px;
-    margin: auto;
-    padding: 20px;
-    position: relative;
-}
-
-nav{
-    width: 250px;
-    height: 150px;    
-}
-
-nav ul li a{
-    display: inline;
-}
-
-footer{
-    height: 50px;
-    line-height: 50px;
-    background-color: black;
-    color:blanchedalmond;
-    clear: both;
-}
-
-.divisaoColuna{
-    float: left;
-    width: 100%;
 }
